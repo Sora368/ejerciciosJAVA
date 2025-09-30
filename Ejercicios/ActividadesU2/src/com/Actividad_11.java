@@ -5,11 +5,11 @@ public class Actividad_11 {
 	public static void main(String[] args) {
 		//declaramos las variables
 		Scanner sc = new Scanner(System.in);
-		int notas;
+		double notas;
 		//Pedimos las notas
 		System.out.println("Introduce tus notas");
 		
-		notas = sc.nextInt();
+		notas = sc.nextDouble();
 		
 		if (notas < 0) {
 			System.out.println("Esa nota no es posible");
@@ -19,12 +19,12 @@ public class Actividad_11 {
 			
 		}else if (notas<= 4) {
 			System.out.println("Has suspendido");
-		}else if (notas == 5) {
+		}else if (notas>= 5 && notas<6) {
 			System.out.println("Tienes un suficiente");
-		}else if (notas == 6) {
+		}else if (notas>= 6 && <7) {
 			System.out.println("Tienes un bien");
 			
-		}else if (notas <= 8) {
+		}else if (notas>=7 && notas < 9) {
 			System.out.println("Tienes un notable");
 		}else {
 			System.out.println("Tienes un sobresaliente");
