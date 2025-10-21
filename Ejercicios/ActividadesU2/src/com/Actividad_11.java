@@ -21,7 +21,7 @@ public class Actividad_11 {
 			System.out.println("Has suspendido");
 		}else if (notas>= 5 && notas<6) {
 			System.out.println("Tienes un suficiente");
-		}else if (notas>= 6 && notas <7) {
+		}else if (notas>=6 && notas <7) {
 			System.out.println("Tienes un bien");
 			
 		}else if (notas>=7 && notas < 9) {
@@ -29,8 +29,9 @@ public class Actividad_11 {
 		}else {
 			System.out.println("Tienes un sobresaliente");
 		}
-			
-
+		
 	}
 
+
 }
+	
