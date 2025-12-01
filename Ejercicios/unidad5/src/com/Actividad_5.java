@@ -1,6 +1,7 @@
 package com;
 
 import java.util.Random;
+
 import java.util.Scanner;
 
 public class Actividad_5 {
@@ -14,7 +15,7 @@ public class Actividad_5 {
 		
 		System.out.println("Indica la longitud del índice de las dificultades 1 a 5");
 		int indice = sc.nextInt();
-		if (indice > 5) {
+		if (indice > 5 || indice<0) {
 			System.out.println("Dificultad no válida");
 		}else {
 			System.out.println("Comienza el juego");
@@ -35,7 +36,7 @@ public class Actividad_5 {
 					System.out.println("Número correcto");
 					i++;
 				}
-				
+			
 				
 				
 			}
